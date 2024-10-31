@@ -1,3 +1,6 @@
+## Ander's Portfolio
+This is meant to be a project created for the purpose of creating a one-page website with React and Next while showcasing some of my projects for a technical portfolio.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
