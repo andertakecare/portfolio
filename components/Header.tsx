@@ -9,17 +9,17 @@ export default function Header() {
         </div>
         <ul className="flex space-x-8 text-2xl">
           <li>
-            <Link href="#about" scroll={false}>
+            <Link href="#about">
               About
             </Link>
           </li>
           <li>
-            <Link href="#projects" scroll={false}>
+            <Link href="#projects">
               Projects
             </Link>
           </li>
           <li>
-            <Link href="#contact" scroll={false}>
+            <Link href="#contact">
               Contact
             </Link>
           </li>
