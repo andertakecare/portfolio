@@ -3,10 +3,10 @@ import ander from '../public/Ander.jpg';
 
 export default function HomePage() {
 	return (
-		<main className="flex flex-col items-center justify-center pt-[3vw] min-h-screen bg-gray-800">
+		<main className="mt-20 flex flex-col items-center justify-center pt-[3vw] min-h-screen bg-gray-800 z-100">
 			<section
 				id="about"
-				className="scroll-mt-[3vw] flex flex-col items-center justify-center w-full text-white bg-yellow-900 "
+				className="flex flex-col items-center justify-center w-full text-white bg-yellow-900 "
 			>
 				<h2 className="text-4xl font-bold mb-4 text-blue-400 self-center">
 					Hello, I&apos;m Ander {/*escaped single quote for react*/}
