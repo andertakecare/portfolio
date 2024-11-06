@@ -2,14 +2,19 @@ import Link from 'next/link';
 
 export default function Header() {
 	return (
-		<header className="flex items-center bg-gray-900 text-white w-full 
-    h-14 sm:h-14 2xl:h-20
-    py-4 px-8 fixed top-0 z-50">
+		<header
+			className="flex items-center bg-gray-900 text-white w-full 
+    h-14 sm:h-16 2xl:h-20
+    py-4 px-8 fixed top-0 z-50"
+		>
 			<nav className="flex justify-between w-full">
-				<div className="text-2xl 2xl:text-4xl font-bold">
+				<div className="text-2xl sm:text-3xl 2xl:text-4xl font-bold">
 					<Link href="#home">My Portfolio</Link>
 				</div>
-				<ul className="flex items-center space-x-8 text-xl 2xl:text-2xl">
+				<ul
+					className="flex items-center space-x-8 
+        text-xl sm:text-2xl 2xl:text-3xl"
+				>
 					<li>
 						<Link href="#about">About</Link>
 					</li>
