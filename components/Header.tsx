@@ -8,12 +8,12 @@ export default function Header() {
     py-4 px-8 fixed top-0 z-50"
 		>
 			<nav className="flex justify-between w-full">
-				<div className="text-2xl sm:text-3xl 2xl:text-4xl font-bold">
-					<Link href="#home">My Portfolio</Link>
+				<div className="text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl font-bold">
+					<Link href="#about">My Portfolio</Link>
 				</div>
 				<ul
 					className="flex items-center space-x-8 
-        text-xl sm:text-2xl 2xl:text-3xl"
+        text-xl sm:text-2xl md:text-3xl 2xl:text-4xl"
 				>
 					<li>
 						<Link href="#about">About</Link>

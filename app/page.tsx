@@ -3,16 +3,16 @@ import ander from '../public/Ander.jpg';
 
 export default function HomePage() {
 	return (
-		<main className="mt-14 sm:mt-16 flex flex-col items-center justify-center min-h-screen bg-gray-800 z-100">
+		<main className="mt-14 sm:mt-16 2xl:mt-20 flex flex-col items-center justify-center min-h-screen bg-gray-800">
 			<section
 				id="about"
-				className="scroll-mt-14 sm:scroll-mt-16 flex flex-col items-center justify-center w-full text-white bg-yellow-900 "
+				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 flex flex-col items-center justify-center w-full text-white bg-yellow-900 "
 			>
-				<h2 className="text-4xl font-bold py-6 text-blue-400">
+				<h2 className="text-4xl 2xl:text-6xl font-bold py-6 2xl:py-8 text-blue-400">
 					Hello, I&apos;m Ander {/*escaped single quote for react*/}
 				</h2>
 				<Image
-					className="w-11/12 sm:w-10/12 md:w-1/2 lg:w-1/3 xl:w-1/4"
+					className="w-11/12 sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12"
 					src={ander}
 					alt="Picture of the author"
 				></Image>
@@ -24,13 +24,13 @@ export default function HomePage() {
 			</section>
 			<section
 				id="projects"
-				className="scroll-mt-14 sm:scroll-mt-16 min-h-screen w-full text-white bg-green-700"
+				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 min-h-screen w-full text-white bg-green-700"
 			>
 				<h1>Here are some of my projects:</h1>
 			</section>
 			<section
 				id="contact"
-				className="scroll-mt-14 sm:scroll-mt-16 min-h-screen w-full text-white bg-cyan-700"
+				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 min-h-screen w-full text-white bg-cyan-700"
 			>
 				contact me
 			</section>
