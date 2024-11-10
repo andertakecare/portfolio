@@ -1,4 +1,4 @@
 // Will use for project thumbnails
 export default function Project () {
-  return <>Project Placeholder</>
+  return <div>Project Placeholder</div>
 }
