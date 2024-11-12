@@ -1,8 +1,10 @@
+import Image from 'next/image';
 // Will use for project thumbnails
 export default function Project() {
 	return (
 		<div>
-			<caption>Project Placeholder</caption>
+			<Image src={''} alt={''}></Image>
+      <caption>Project Placeholder</caption>
 		</div>
 	);
 }
