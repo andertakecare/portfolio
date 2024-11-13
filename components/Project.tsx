@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Project() {
 	return (
 		<div>
-			<Image src={''} alt={''}></Image>
+			<Image src={''} alt={'thumbnail of project'}></Image>
       <caption>Project Placeholder</caption>
 		</div>
 	);
