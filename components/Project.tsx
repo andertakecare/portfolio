@@ -3,8 +3,12 @@ import Image from 'next/image';
 export default function Project() {
 	return (
 		<div>
-			<Image src={''} alt={'thumbnail of an individual project'}></Image>
-      <caption>Project Placeholder</caption>
+			<Image
+				src={''}
+				alt={'thumbnail of an individual project'}
+				className=""
+			></Image>
+			<caption>Project Placeholder</caption>
 		</div>
 	);
 }
