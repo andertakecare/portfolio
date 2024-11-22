@@ -8,7 +8,7 @@ export default function Project() {
 				alt={'thumbnail of an individual project'}
 				className=""
 			></Image>
-			<caption>Project Caption Placeholder</caption>
+			<caption>Project Image Caption Placeholder</caption>
 		</div>
 	);
 }
