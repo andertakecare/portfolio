@@ -28,7 +28,6 @@ export default function ProjectList() {
 			id="projects"
 			className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 min-h-screen w-full text-white"
 		>
-			{/* <section className="my-8 px-4"> */}
 				<h2 className="text-3xl font-bold mb-6 text-center">My Projects</h2>
 				<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 					{projects.map((project) => (
@@ -56,7 +55,6 @@ export default function ProjectList() {
 						</div>
 					))}
 				</div>
-			{/* </section> */}
 		</section>
 	);
 }
