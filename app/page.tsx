@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import ander from '../public/Ander.jpg';
+import ProjectList from '@/components/ProjectList';
+import Contact from '@/components/Contact';
 
 export default function HomePage() {
 	return (
@@ -22,18 +24,8 @@ export default function HomePage() {
 					Tailwind.
 				</p>
 			</section>
-			<section
-				id="projects"
-				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 min-h-screen w-full text-white bg-green-700"
-			>
-				<h1>Here are some of my projects:</h1>
-			</section>
-			<section
-				id="contact"
-				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 min-h-screen w-full text-white bg-cyan-700"
-			>
-				contact me
-			</section>
+      <ProjectList />
+      <Contact />
 		</main>
 	);
 }

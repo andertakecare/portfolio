@@ -10,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-gray-50 text-gray-900">
         <Header />
-        <main>{children}</main>
+        {children}
         <footer className="p-4 bg-gray-900 text-white text-center">
           <p>© 2024 Anderson Godoy</p>
         </footer>
