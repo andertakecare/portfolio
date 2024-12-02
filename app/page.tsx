@@ -24,8 +24,8 @@ export default function HomePage() {
 					Tailwind.
 				</p>
 			</section>
-      <ProjectList />
-      <Contact />
+			<ProjectList />
+			<Contact />
 		</main>
 	);
 }
