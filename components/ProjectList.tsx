@@ -28,7 +28,7 @@ export default function ProjectList() {
 			id="projects"
 			className="flex flex-col justify-center scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 min-h-screen w-full text-white"
 		>
-			<h2 className="text-3xl font-bold mb-6 text-center">My Projects</h2>
+			<h2 className="text-5xl font-bold mb-60 text-center">My Projects</h2>
 			<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 				{projects.map((project) => (
 					<div
