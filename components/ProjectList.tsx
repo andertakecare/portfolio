@@ -11,13 +11,13 @@ const projects = [
 		id: 2,
 		thumbnail: '/placeholder_img.jpg',
 		caption: 'Project two',
-		link: 'https://github.com/andertakecare/message-generator-JS',
+		link: 'https://github.com/andertakecare/react-tic-tac-toe',
 	},
 	{
 		id: 3,
 		thumbnail: '/placeholder_img.jpg',
 		caption: 'Project three',
-		link: 'https://github.com/andertakecare/message-generator-JS',
+		link: 'https://github.com/andertakecare/hat-finder-game',
 	},
 ];
 
