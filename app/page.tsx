@@ -8,7 +8,7 @@ export default function HomePage() {
 		<main className="mt-14 sm:mt-16 2xl:mt-20 flex flex-col items-center justify-center min-h-screen bg-gray-800">
 			<section
 				id="about"
-				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 flex flex-col items-center justify-center w-full text-white bg-yellow-900 "
+				className="scroll-mt-14 sm:scroll-mt-16 2xl:scroll-mt-20 flex flex-col items-center justify-center w-full text-white"
 			>
 				<h2 className="text-4xl 2xl:text-6xl font-bold py-6 2xl:py-8 text-blue-400">
 					Hello, I&apos;m Ander {/*escaped single quote for react*/}
